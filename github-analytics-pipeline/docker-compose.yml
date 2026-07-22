@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  airflow:
+    build: .
+    image: custom-airflow:latest
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/airflow.db
+    volumes:
+      - ./:/opt/airflow
+    ports:
+      - "8080:8080"
+    command: airflow standalone
