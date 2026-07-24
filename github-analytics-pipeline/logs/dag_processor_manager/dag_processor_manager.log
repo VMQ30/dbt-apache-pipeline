@@ -38,3 +38,142 @@
 [2026-07-24T05:32:20.041+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
 [2026-07-24T05:32:20.041+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
 [2026-07-24T05:32:20.057+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2026-07-24T07:03:38.782+0000] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2026-07-24T07:03:38.783+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-07-24T07:03:38.784+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-07-24T07:03:38.785+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-07-24T07:03:38.799+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-24T07:03:41.782+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_huggingface_dag.py                           1           0  2.81s           2026-07-24T07:03:41
+================================================================================
+[2026-07-24T07:04:13.417+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_huggingface_dag.py                           1           0  1.01s           2026-07-24T07:04:13
+================================================================================
+[2026-07-24T07:06:04.152+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2026-07-24T07:06:04.535+0000] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2026-07-24T07:06:04.536+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-07-24T07:06:04.537+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-07-24T07:06:04.537+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-07-24T07:06:04.556+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-24T07:06:05.841+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_huggingface_dag.py                           1           0  1.21s           2026-07-24T07:06:05
+================================================================================
+[2026-07-24T07:07:00.954+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2026-07-24T07:07:01.188+0000] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2026-07-24T07:07:01.189+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-07-24T07:07:01.189+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-07-24T07:07:01.190+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-07-24T07:07:01.206+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-24T07:07:02.181+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_huggingface_dag.py                           1           0  0.91s           2026-07-24T07:07:02
+================================================================================
+[2026-07-24T07:07:33.593+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_huggingface_dag.py                           1           0  0.91s           2026-07-24T07:07:33
+================================================================================
+[2026-07-24T07:08:05.232+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_huggingface_dag.py                           1           0  1.01s           2026-07-24T07:08:05
+================================================================================
+[2026-07-24T07:08:36.791+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_huggingface_dag.py                           1           0  1.01s           2026-07-24T07:08:36
+================================================================================
+[2026-07-24T07:09:08.434+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_huggingface_dag.py                           1           0  1.01s           2026-07-24T07:09:08
+================================================================================
+[2026-07-24T07:09:39.946+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_huggingface_dag.py                           1           0  1.01s           2026-07-24T07:09:39
+================================================================================
+[2026-07-24T07:10:10.525+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_huggingface_dag.py                           1           0  1.01s           2026-07-24T07:09:55
+================================================================================
+[2026-07-24T07:10:40.964+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_huggingface_dag.py                           1           0  1.01s           2026-07-24T07:10:26
+================================================================================
+[2026-07-24T07:11:11.231+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_huggingface_dag.py                           1           0  1.01s           2026-07-24T07:10:57
+================================================================================
+[2026-07-24T07:11:41.709+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_huggingface_dag.py                           1           0  1.01s           2026-07-24T07:11:29
+================================================================================
+[2026-07-24T07:12:02.002+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-07-24T07:12:02.021+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-24T07:12:12.173+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_huggingface_dag.py                           1           0  1.01s           2026-07-24T07:12:00
+================================================================================
+[2026-07-24T07:12:42.557+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_huggingface_dag.py                           1           0  1.01s           2026-07-24T07:12:32
+================================================================================
