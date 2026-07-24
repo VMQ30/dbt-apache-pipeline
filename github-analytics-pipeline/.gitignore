@@ -1,0 +1,17 @@
+airflow.db
+standalone_admin_password.txt
+*.log
+logs/
+*.log
+*.db
+*.db-journal
+*.db-wal
+standalone_admin_password.txt
+airflow-webserver.pid
+
+*.duckdb
+*.duckdb.wal
+
+venv/
+__pycache__/
+*.pyc
