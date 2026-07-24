@@ -4,10 +4,16 @@ services:
     build: .
     image: custom-airflow:latest
     environment:
+      - PYTHONWARNINGS=ignore
       - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/airflow.db
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__CORE__FERNET_KEY=46ThR32A83592T_R_T3966a362847622_4_83726487=
     volumes:
-      - ./:/opt/airflow
+      # Mount ONLY specific subfolders instead of the whole root directory
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
     ports:
       - "8080:8080"
     command: airflow standalone
